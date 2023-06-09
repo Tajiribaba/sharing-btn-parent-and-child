@@ -14,6 +14,7 @@ import { UserComponent } from './user/user.component';
 import { PostsComponent } from './posts/posts.component';
 import { AppRoutingModule } from './app-routing.module';
 import { GetsComponent } from './gets/gets.component';
+import { TestGitComComponent } from './test-git-com/test-git-com.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { GetsComponent } from './gets/gets.component';
     AddUserComponent,
     UserComponent,
     PostsComponent,
-    GetsComponent
+    GetsComponent,
+    TestGitComComponent
   ],
   imports: [
     BrowserModule,
