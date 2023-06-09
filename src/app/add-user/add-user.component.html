@@ -1,0 +1,11 @@
+<div class="form-group">
+    <h3>Add User</h3>
+    <label for="uname">Username</label>
+    <!-- <input type="text" class="form-control" [(ngModel)]="user"> -->
+    <input type="text" class="form-control" #userNameInput />
+    <div class="mt-2">
+        <button class="btn btn-primary" (click)="onUserAdded(userNameInput)">Add User</button>
+    </div>
+</div>
+
+<p>{{ displayName() }}</p>
